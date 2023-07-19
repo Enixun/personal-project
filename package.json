@@ -1,0 +1,29 @@
+{
+  "name": "personal-project",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --open",
+    "build": "webpack build --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Ashley",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.45.0",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "scss-loader": "^0.0.1",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
-export default function () {
-  return <h1>Hello World</h1>;
+export default function App (): React.JSX.Element {
+  return <h1>Hello World</h1>
 }

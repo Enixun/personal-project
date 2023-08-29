@@ -34,7 +34,10 @@ export default {
   devServer: {
     port: 8080,
     static: path.resolve(__dirname, 'dist'),
-    hot: true
+    hot: true,
+    proxy: {
+      '/api': 'http://localhost:3000/'
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({

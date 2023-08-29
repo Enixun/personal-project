@@ -4,7 +4,7 @@ import 'dotenv/config'
 const app: Express = express()
 const PORT = process.env.PORT ?? 3000
 
-app.use((_req: Request, res: Response): Response => res.send('working'))
+app.use((req: Request, res: Response) => res.send(req.originalUrl))
 
 app.listen(PORT, (): void => {
   console.log('Listening on port', PORT)
